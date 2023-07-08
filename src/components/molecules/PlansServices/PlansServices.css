@@ -1,0 +1,20 @@
+.planServices__icons {
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.icon__plan1 {
+    text-align: center;
+}
+
+.icon__plan1 img {
+    height: 15rem;
+}
+
+.icon__plan1 p {
+    text-align: center;
+    font-size: 2rem;
+}

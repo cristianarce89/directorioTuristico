@@ -1,0 +1,27 @@
+:root {
+    --blanco: #ffffff;
+    --azul_ppal: #0d3878;
+    --azul_claro: #005da9;
+    --gris_claro: #757677;
+    --blanco_sombreado: #e3e3e3;
+    --negro: #14171c;
+}
+
+* {
+    /*para q no se añada el padding y el border de mas y no genere scroll*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}

@@ -1,0 +1,104 @@
+.rutaDorada__container--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rutaDorada__logo--directorioTuristico {
+    width: 10rem;
+    height: auto;
+    margin-left: 10rem;
+    transform: scaleX(2);
+    transform: scaleY(0.7);
+}
+
+.rutaDorada__logo--directorioTuristico img {
+    width: 24rem;
+    height: 10rem;
+}
+
+/* ----------seccion de buscar----------- */
+.container__busqueda--header {
+    display: flex;
+    background-color: var(--blanco_sombreado);
+    padding: 10;
+    width: 45rem;
+    height: 6rem;
+    border-radius: 5rem;
+    margin: 0.5rem auto;
+    margin-top: 1rem;
+}
+
+.container__iconLugar--header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.icon__lugar--header {
+    position: absolute;
+    left: 2rem;
+    color: var(--gris_claro);
+    font-size: 2.4rem;
+    margin-left: 2rem;
+}
+
+.input__lugar--header {
+    margin-left: 2.5rem;
+    font-size: 1.6rem;
+    border-radius: 3.5rem;
+    padding: 1.3rem 1rem 1.3rem 5rem;
+    border: none;
+    outline: none;
+    background-color: var(--blanco_sombreado);
+    color: var(--gris_claro);
+}
+
+.container__botonBuscar--header {
+    position: relative;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.botonBuscar__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azul_ppal);
+    width: 15rem;
+    height: 4rem;
+    border-radius: 3.5rem;
+    color: var(--blanco);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.icon__lupa--header {
+    margin-right: 1rem;
+}
+
+/* ------------------------------------------------ */
+
+.rutaDorada__contenedor--registrateLogin {
+    display: flex;
+    gap: 3rem;
+    margin-right: 10rem;
+}
+
+.rutaDorada__registrate, .rutaDorada__login {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.rutaDorada__contenedor--registrateLogin a:not(:last-child)::after {
+    content: " | ";
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+    color: black;
+}
+
+.rutaDorada__contenedor--registrateLogin a {
+    color: var(--gris_claro);
+}
